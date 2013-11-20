@@ -46,7 +46,7 @@ function wp_cc_tax_custom_taxonomy() {
   );
 
   register_taxonomy( 'wp_cc_tax_country', array( 'post' ), array(
-    'hierarchical'=> false,
+    'hierarchical'=> true,
     'labels'      => $labels,
     'show_ui'     => true,
     'query_var'   => true,
